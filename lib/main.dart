@@ -29,7 +29,7 @@ class _HomeScreenState extends State {
     Student.withID(2, "Talha", "Anay", 45),
     Student.withID(3, "Emirhan", "Erdoğan", 25),
   ];
-  Student selectedStudent = Student.withID(0, "No one selected", "", 0);
+  Student selectedStudent = Student.withID(0, "No one selected.", "", 0);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
